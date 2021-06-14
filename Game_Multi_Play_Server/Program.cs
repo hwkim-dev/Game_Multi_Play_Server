@@ -93,7 +93,7 @@ namespace Game_Multi_Play_Server
                     if (item == ':')
                     {
                         break;
-                    }
+                    } 
                     ip += item;
                 }
                 rcvData.Me = new IPEndPoint(IPAddress.Parse(ip), 11201);
